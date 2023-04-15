@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Thinkpad700CPower")(type "KiCad")(uri "${KIPRJMOD}/Thinkpad700CPower.kicad_sym")(options "")(descr ""))
+)
