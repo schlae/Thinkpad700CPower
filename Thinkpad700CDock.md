@@ -54,7 +54,7 @@ Through a rather tedious manual process, I've been able to reverse engineer the 
 | 49: n/c                 | 109: DB14               | 169: Parallel port pin 3 | 229: Parallel port pin 16 |
 | 50: GND                 | 110: DB15               | 170: Parallel port pin 2 | 230: Parallel port pin 15 |
 | 51: n/c                 | 111: CD\_DS16#          | 171: Parallel port pin 1 | 231: Parallel port pin 14 |
-| 52: n/c                 | 112: SBHE#              | 172: SOFT\_POWEROFF# (CN4 64) | 232: GND |
+| 52: n/c                 | 112: SBHE#              | 172: STANDBY# (CN4 64) | 232: GND |
 | 53: GND                 | 113: GND                | 173: Serial port pin 3   | 233: Serial port pin 2 |
 | 54: +20V AC adapter     | 114: VGA port pin 3     | 174: Serial port pin 1   | 233: Serial port pin 4 |
 | 55: +20V AC adapter     | 115: GND                | 175: Serial port pin 6   | 234: Serial port pin 8 |
@@ -63,6 +63,11 @@ Through a rather tedious manual process, I've been able to reverse engineer the 
 | 58: +20V AC adapter     | 118: VGA port pin 1     | 178: VGA port pin 11     | 238: VGA port pin 12 |
 | 59: +20V AC adapter     | 119: GND                | 179: +10V                | 239: GND |
 | 60: +20V AC adapter     | 120: BACKLIGHT\_PWR# (CN4 29) | 180: GND | 240: GND |
+
+Notes:
+
+* 5V\_2 pins are always on. All remaining +5V pins turn off in standby mode.
+* STANDBY# is at ~13V when the laptop is off, 5V during normal operation, and 0V during standby.
 
 The docking connector is in the AMP Champ .050 family, similar to the 5787886-1 but with 240 contacts instead of 200. I've had success connecting to the docking port using two stacked PCBs with 0.050" edge fingers. The PCBs need to be 1.2mm thick instead of the normal 1.6mm.
 
@@ -73,7 +78,7 @@ The docking port breaks out several ports on the laptop, for convenience:
 * VGA port
 * AC adapter
 
-There also also all the signals required to implement a single Micro Channel expansion slot, including the Auxiliary Video Extension (AVE). This does not include the +12V and -12V rails.
+There also also all the signals required to implement a single Micro Channel expansion slot, including the Auxiliary Video Extension (AVE). This does not include the +12V and -12V rails. It also does not appear to break out the CHRESET signal.
 
 Several pins implement functions specific to this laptop, including:
 * PWR\_SWITCH#: Bring this line low to turn on the laptop. Connected in parallel with the physical power switch.
@@ -119,6 +124,8 @@ The pinout for the hard disk drive is as follows:
 | 55 | n/c | 56 | n/c |
 | 57 | n/c | 58 | n/c |
 | 59 | n/c | 60 | n/c |
+
+Note: CHRESET# is inverted from the usual MCA CHRESET signal. It goes low to reset the drive.
 
 The hard drive connector goes through a flex connection to a 52-pin 2mm header on the actual hard drive itself. The pinout matches 1:1. Pins 53-60 are not wired through. The motherboard connector is probably from the AMP Champ .050 FH family: 5176381-2. Possible matching connectors include the AMP 5176376-2 and the 5176379-2.
 
