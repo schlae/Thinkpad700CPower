@@ -6,11 +6,15 @@ The schematic isn't perfect. Open a bug report if you find a mistake. Not all co
 
 The circuit board has four layers and an aluminum core, presumably for heat dissipation.
 
+**Do not fabricate this design. The PCB layout is for reference only.** There are ground plane cuts in layer User.9 that need to get transferred to the ground plane. There are minor footprint differences as well. There are still unidentified components in the bill of materials.
+
 ## Troubleshooting
 
 There is a single aluminum electrolytic capacitor on this board, C18 (47uF 6.3V) and, at least in my machine, it failed and leaked electrolyte everywhere. This is a problem because the electrolyte likes to puddle in nearby vias, and the acid in the solution etches away and can break the connection.
 
 C43 and C19 are polymer electrolytic capacitors and are much more reliable than C18.
+
+You can use the board layout to help with troubleshooting since it shows how the vias in this area should be connected.
 
 ## Operation
 
