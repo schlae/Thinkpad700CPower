@@ -8,6 +8,10 @@ The circuit board has four layers and an aluminum core, presumably for heat diss
 
 **Do not fabricate this design. The PCB layout is for reference only.** There are ground plane cuts in layer User.9 that need to get transferred to the ground plane. There are minor footprint differences as well. There are still unidentified components in the bill of materials.
 
+## Disassembly
+
+If you need information about disassembling a Thinkpad 700C to access the power board, refer to [my guide on iFixit](https://www.ifixit.com/Guide/IBM+Thinkpad+700C+Disassembly/173038).
+
 ## Troubleshooting
 
 There is a single aluminum electrolytic capacitor on this board, C18 (47uF 6.3V) and, at least in my machine, it failed and leaked electrolyte everywhere. This is a problem because the electrolyte likes to puddle in nearby vias, and the acid in the solution etches away and can break the connection.
