@@ -1,4 +1,4 @@
-22502487744488020
+22732994249161113
 700CPowerBoard
 C0805
 
@@ -165,7 +165,7 @@ SOT89
 
 
 0
-4
+3
 3
 700CPowerBoard
 SOT323
@@ -440,6 +440,20 @@ LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED
 0
 2
 2
+Active
+LEDM3216X110
+LED 1206 smd package
+LED led 1206 SMD smd SMT smt smdled SMDLED smtled SMTLED
+0
+2
+2
+Active
+LTD-2601G-11
+
+
+0
+10
+10
 Active
 PLCCP127P1250X1500X370-32
 PLCC, 32 pins, surface mount PLUG
@@ -6999,6 +7013,510 @@ capacitor tantalum
 0
 2
 2
+Conn
+B6091_SOCKET
+
+
+0
+13
+13
+Conn
+BUS_APPLE2
+Connector Bus AII
+CONN BUS APPLE
+0
+50
+50
+Conn
+BUS_DBA_ESDI
+Connector Bus AT ISA 8 bits
+CONN BUS ISA
+0
+72
+72
+Conn
+BUS_MCA
+
+
+0
+112
+112
+Conn
+BUS_MCA_TP
+MCA bus with test points
+
+0
+224
+112
+Conn
+BUS_PC
+Connecteur Bus AT ISA 16 bits
+CONN BUS ISA
+0
+62
+62
+Conn
+BUS_PC_8BIT
+Connector Bus AT ISA 8 bits
+CONN BUS ISA
+0
+62
+62
+Conn
+BUS_PC_16BIT
+Connector Bus AT ISA 16 bits
+CONN BUS ISA
+0
+98
+98
+Conn
+CUI_MD-60SG
+
+
+0
+9
+9
+Conn
+CUI_PJ-002B
+
+
+0
+3
+3
+Conn
+CUI_PJ-044AH
+
+
+0
+3
+3
+Conn
+CUI_PJ-051BH
+
+
+0
+6
+6
+Conn
+CUI_SJ1-353XN
+
+
+0
+5
+5
+Conn
+DB9FC
+Connecteur DB9 femelle couche
+CONN DB9
+0
+11
+9
+Conn
+DB9FC2
+DB9 Right Angle Female (Kycon K22X-E9S)
+CONN DB9
+0
+11
+10
+Conn
+DB9F_CI
+Connecteur DB9 femelle encarte
+CONN DB9
+0
+9
+9
+Conn
+DB9F_CI_INVERT
+Connecteur DB9 male encarte
+CONN DB9
+0
+9
+9
+Conn
+DB9MC
+DB9 Right Angle Male (Kycon K22X-E9P)
+CONN DB9
+0
+11
+10
+Conn
+DB9M_CI
+Connecteur DB9 male encarte
+CONN DB9
+0
+9
+9
+Conn
+DB9M_CI_INVERT
+Connecteur DB9 femelle encarte
+CONN DB9
+0
+9
+9
+Conn
+DB15HDFC
+Connecteur DB15HD Right Angle
+CONN DB15HD
+0
+17
+16
+Conn
+DB15HD_VERT
+Connecteur DB15HD Vert Modified
+CONN DB15HD
+0
+15
+15
+Conn
+DB62
+
+
+0
+64
+63
+Conn
+DSUB-13W3
+
+
+0
+21
+17
+Conn
+DSUB-19_Male_EdgeMount_P2.77mm
+19-pin D-Sub connector, solder-cups edge-mounted, female, x-pin-pitch 2.77mm, distance of mounting holes 47.1mm
+19-pin D-Sub connector edge mount solder cup female x-pin-pitch 2.77mm mounting holes distance 47.1mm
+0
+19
+19
+Conn
+DSUB-23_Female_EdgeMount_P2.77mm
+25-pin D-Sub connector, solder-cups edge-mounted, female, x-pin-pitch 2.77mm, distance of mounting holes 47.1mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+25-pin D-Sub connector edge mount solder cup female x-pin-pitch 2.77mm mounting holes distance 47.1mm
+0
+23
+23
+Conn
+EDAC_305-024-520-202
+
+
+0
+24
+24
+Conn
+EDAC_345-086-541
+
+
+0
+86
+86
+Conn
+EDAC_357-036-520-208
+
+
+0
+36
+36
+Conn
+EDAC_395-036-520-202
+
+
+0
+36
+36
+Conn
+EDAC_395-040-520-202
+
+
+0
+40
+40
+Conn
+EDAC_395-040-559-212
+
+
+0
+40
+40
+Conn
+EDGE_30_156
+
+
+0
+30
+30
+Conn
+EDGE_44_156
+
+
+0
+44
+44
+Conn
+EDGE_DIMM_80_127
+
+
+0
+80
+80
+Conn
+EDGE_FLOPPY40
+
+
+0
+40
+40
+Conn
+EDGE_SIMM_64_127
+
+
+0
+64
+64
+Conn
+FCI_10118194
+
+
+0
+11
+11
+Conn
+FCI_10118194_slotted
+
+
+0
+11
+11
+Conn
+GENERIC_HDR100P_SMT-6
+
+
+0
+6
+6
+Conn
+HARWIN_M50-310-20
+
+
+0
+20
+20
+Conn
+HARWIN_M50-350-20
+
+
+0
+20
+20
+Conn
+HEADER_2x10_254_SHROUDED
+Through hole straight pin header, 2x10, 2.54mm pitch, double rows
+Through hole pin header THT 2x10 2.54mm double row
+0
+20
+20
+Conn
+HEADER_2x17_254_SHROUDED
+Through hole straight pin header, 2x17, 2.54mm pitch, double rows
+Through hole pin header THT 2x17 2.54mm double row
+0
+34
+34
+Conn
+HEADER_2x20_254_SHROUDED
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+40
+40
+Conn
+HIROSE_DM3AT-SF-PEJM5
+
+
+0
+14
+14
+Conn
+JMP1608
+0603 size solder jumper
+solder jumper test point
+0
+2
+2
+Conn
+JST_ZR-S04B_04x1.50mm_Angled
+JST EH series connector, S04B-EH, 2.50mm pitch, side entry
+connector jst eh side horizontal angled
+0
+4
+4
+Conn
+KOBICONN_161-03X0-E
+Kobiconn RCA jack (161-03x0-E) or Keystone 901 Series or CUI RCJ-011
+
+0
+4
+2
+Conn
+MH_3MM
+
+
+0
+1
+1
+Conn
+MH_125
+
+
+0
+0
+0
+Conn
+MH_125_200
+
+
+0
+1
+1
+Conn
+MH_125_250
+
+
+0
+1
+1
+Conn
+MILL-MAX_0294-0-15-01-06-27-10-0
+0.076 diameter pin socket, accepts 0.022" to 0.032" diameter pin
+
+0
+1
+1
+Conn
+MILL-MAX_0542-0-00-15-00-00-03-0
+
+
+0
+1
+1
+Conn
+MNT_KEYSTONE_9200
+
+
+0
+0
+0
+Conn
+MNT_KEYSTONE_9202
+
+
+0
+2
+1
+Conn
+MOLEX_52207-0433_FPC
+
+
+0
+4
+4
+Conn
+MOLEX_105133-0031
+
+
+0
+8
+6
+Conn
+MOLEX_1722871102
+Molex Ultra-Fit 172287 2-position
+
+0
+4
+3
+Conn
+MOLEX_1723101102
+Molex Ultra-Fit 172310 2-position right angle
+
+0
+2
+2
+Conn
+MOLEX_1723101104
+Molex Ultra-Fit 172310 4-position right angle
+
+0
+4
+4
+Conn
+RCA_156-4219-E
+
+
+0
+3
+3
+Conn
+SLOT_MCA_16BIT
+
+
+0
+112
+112
+Conn
+SOP127CASTELLATION
+
+
+0
+1
+1
+Conn
+SULLINS_EBC18DRAS
+
+
+0
+36
+36
+Conn
+SULLINS_EBC22DRAS
+
+
+0
+44
+44
+Conn
+SULLINS_EBC22DRAS_ALT
+
+
+0
+44
+44
+Conn
+TE_5749181-1
+
+
+0
+7
+5
+Conn
+TP1MM
+
+
+0
+1
+1
+Conn
+TP_EDGE
+
+
+0
+1
+1
+Conn
+TP_KEYSTONE_5005_9
+
+
+0
+1
+1
 Connector
 Banana_Cliff_FCR7350x_S16N-PC_Horizontal
 Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
@@ -81619,6 +82137,293 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Passive
+BOURNS_3386_VERT_UNIVERSAL
+Potentiometer, vertical, Bourns 3386P and inline
+Potentiometer vertical Bourns 3386P
+0
+4
+3
+Passive
+CAP23
+
+
+0
+3
+2
+Passive
+CAPA1000
+
+
+0
+2
+2
+Passive
+CAPAC200
+
+
+0
+2
+2
+Passive
+CAPAE200P500X1100
+
+
+0
+2
+2
+Passive
+CAPAE250P630X1100
+
+
+0
+2
+2
+Passive
+CAPAE350P800X700
+
+
+0
+2
+2
+Passive
+CAPAE500P1000X1500
+
+
+0
+2
+2
+Passive
+CAPAE750P1600X2500
+
+
+0
+2
+2
+Passive
+CAPAP200
+
+
+0
+2
+2
+Passive
+CAPC1608X100
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
+0
+2
+2
+Passive
+CAPC2012X55
+Resistor SMD 0805, hand soldering
+resistor 0805
+0
+2
+2
+Passive
+CAPC3225X110
+Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)
+capacitor 1210
+0
+2
+2
+Passive
+CAPF500P1000X1200
+
+
+0
+2
+2
+Passive
+C_Disc_D0.2in_W0.1in_P0.2in
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 5mm width 2.5mm Capacitor
+0
+2
+2
+Passive
+DIOA500
+
+
+0
+2
+2
+Passive
+EW_GKG
+EW Electronics Trimmer Capacitor, GKG series
+
+0
+2
+2
+Passive
+FB254
+
+
+0
+2
+2
+Passive
+INDA500P780X750
+
+
+0
+2
+2
+Passive
+INDM125125X600
+Inductor, Wurth Elektronik, Wurth_HCM-7070, 7.4mmx7.2mm
+inductor wurth hcm smd
+0
+2
+2
+Passive
+JMP1608X55-3
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
+0
+3
+3
+Passive
+PIHER_PT6KV
+
+
+0
+3
+3
+Passive
+PIHER_PT10_H01
+
+
+0
+3
+3
+Passive
+PIHER_PT10_V10
+
+
+0
+3
+3
+Passive
+PIHER_PT15_H05
+
+
+0
+3
+3
+Passive
+RESA500
+
+
+0
+2
+2
+Passive
+RESC1608X55
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
+0
+2
+2
+Passive
+RESC1608X55-3
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
+0
+3
+3
+Passive
+RESC1608X55_HandSoldering
+Resistor SMD 0603, hand soldering
+resistor 0603
+0
+2
+2
+Passive
+RESC2012X55
+Resistor SMD 0805, hand soldering
+resistor 0805
+0
+2
+2
+Passive
+RESC3216X70
+Resistor SMD 1206, hand soldering
+resistor 1206
+0
+2
+2
+Passive
+RESC5025X90
+Resistor SMD 2010, hand soldering
+resistor 2010
+0
+2
+2
+Passive
+RESCAV80P320X160X70-8
+Chip Resistor Network, ROHM MNR14 (see mnr_g.pdf)
+resistor array
+0
+8
+8
+Passive
+RK10J12ABE
+
+
+0
+7
+6
+Passive
+RK14J11A000G
+
+
+0
+7
+4
+Passive
+R_Axial_L0.26in_D0.92in_P0.5in_Horizontal
+Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm
+0
+2
+2
+Passive
+TO92-IL
+
+
+0
+3
+3
+Passive
+TRIM_CAP
+
+
+0
+3
+2
+Passive
+XTAL320X250X120-4
+
+SMD SMT crystal oscillator
+0
+4
+4
+Passive
+XTAL500X320X120-2
+SMD Crystal SERIES SMD2520/2 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
+SMD SMT crystal
+0
+2
+2
+Passive
+XTAL500X320_HYBRID
+Crystal, hybrid SMT 5.0x3.2 and HC49 PTH
+SMD SMT crystal
+0
+2
+2
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -86288,6 +87093,216 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Switch
+ALPS_SKHC
+
+
+0
+4
+4
+Switch
+CHERRY_MX
+Cherry MX pushbutton switch
+SWITCH DEV
+0
+2
+2
+Switch
+CHERRY_MX_125
+Cherry MX pushbutton switch, 1.25 unit
+SWITCH DEV
+0
+2
+2
+Switch
+CHERRY_MX_150
+Cherry MX pushbutton switch, 1.5 unit
+SWITCH DEV
+0
+2
+2
+Switch
+CHERRY_MX_175
+Cherry MX pushbutton switch, 1.75 unit
+SWITCH DEV
+0
+2
+2
+Switch
+CHERRY_MX_200
+Cherry MX pushbutton switch, 2 unit
+SWITCH DEV
+0
+2
+2
+Switch
+CHERRY_MX_225
+Cherry MX pushbutton switch, 2.25 unit
+SWITCH DEV
+0
+2
+2
+Switch
+CHERRY_MX_275
+Cherry MX pushbutton switch, 2.75 unit
+SWITCH DEV
+0
+2
+2
+Switch
+CHERRY_MX_625
+Cherry MX pushbutton switch, 6.25 unit
+SWITCH DEV
+0
+2
+2
+Switch
+CHERRY_ST1
+Cherry MX stabilizer for wide keys
+
+0
+4
+4
+Switch
+CHERRY_ST2
+Cherry MX stabilizer for space bar, 1.58" and 1.97"
+
+0
+8
+4
+Switch
+CHERRY_ST3
+Cherry MX stabilizer for space bar, 1.58" and 1.97" and 2.625"
+
+0
+0
+0
+Switch
+CK_JS202011SCQN
+
+
+0
+6
+6
+Switch
+CK_SK-14D01-G-6
+
+
+0
+8
+7
+Switch
+CTS_220AD_04
+
+
+0
+6
+5
+Switch
+ESWITCH_EG2208
+
+
+0
+8
+7
+Switch
+ESWITCH_EG2301
+
+
+0
+12
+9
+Switch
+ESWITCH_EG2305
+
+
+0
+10
+9
+Switch
+ESWITCH_LP6OA2AS__
+
+
+0
+11
+8
+Switch
+ESWITCH_TL1105
+
+
+0
+4
+4
+Switch
+ESWITCH_TL3301F
+
+
+0
+4
+4
+Switch
+ESWITCH_TL3302_G
+
+
+0
+2
+2
+Switch
+JOYSTICK_COM-09032
+
+
+0
+14
+11
+Switch
+NKK_CS12ANW03
+
+
+0
+3
+3
+Switch
+NKK_FR01KR16H
+
+
+0
+5
+5
+Switch
+PANASONIC_EVEY
+
+
+0
+7
+5
+Switch
+SW_DIP254P762X635-8
+DIP switch, 4 switches
+dil dip 2.54 300 switch
+0
+8
+8
+Switch
+SW_DPDT
+
+
+0
+6
+6
+Switch
+SW_SPDT
+
+
+0
+3
+3
+Switch
+SW_SPDT_RA
+
+
+0
+5
+4
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
