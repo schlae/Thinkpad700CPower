@@ -46,3 +46,8 @@ There are two possible values for the current regulation, controlled by the stat
 The Thinkpad laptop pulls this pin low when it is operating, and allows it to float when it is powered off or in standby mode.
 
 Unlike modern laptops, this early Thinkpad power supply also acts as the battery charger, so it tries to charge the batteries with a constant current. If the laptop is operating, it is also using current, so the charger has to increase the current to compensate and maintain the same charging current.
+
+# Thinkpad 700 Series Battery 53G9510
+
+This battery has a built-in LED fuel gauge and button. Pushing the button
+causes the LEDs to light up, indicating the amount of charge left.
